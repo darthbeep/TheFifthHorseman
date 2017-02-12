@@ -1,0 +1,83 @@
+/* Important colors:
+    Dark green: #12b909
+    Light green: #EFFFEF
+*/
+
+/* Fonts:
+font-family: 'Indie Flower', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Slabo 27px', serif;
+*/
+
+@font-face {
+    font-family: IFlower;
+    src: url("fonts/IndieFlower.ttf");
+}
+
+@font-face {
+    font-family: Pangolin;
+    src: url("fonts/Pangolin-Regular.ttf");
+}
+
+@font-face {
+    font-family: Slabo;
+    src: url("fonts/Slabo27px-Regular.ttf");
+}
+
+/* TODO: head CSS */
+#head {
+    font-family:  IFlower, "Comic Sans MS";
+    text-align: center;
+    font-size: 100px;
+    color: #12b909;
+    background-color: black;
+}
+
+/* TODO: navbar CSS */
+#navbar {
+    border-style: dashed;
+    border-width: thin;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: #12b909;
+    font-size: 24px;
+}
+
+/* TODO: separator CSS */
+
+/* TODO: article CSS */
+#article {
+    background-color: #EFFFEF;
+}
+/* TODO: article image CSS */
+.articleimage {
+    float: right;
+    margin: 10px;
+    margin-right: 10%;
+}
+
+/* TODO: headline CSS */
+.headline {
+    font-family: Pangolin;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* TODO: writer CSS */
+.writer {
+    font-family: Pangolin;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* TODO:  text CSS */
+.text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: Slabo;
+    text-align: justify;
+    text-indent: 50px;
+}
